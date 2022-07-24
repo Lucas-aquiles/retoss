@@ -18,12 +18,15 @@
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    border:solid
+    background-image: url("./images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    
 } 
 .desktop{
     display: flex;
     flex-direction: row;
     width:100%;
-    border:solid
 }
 }

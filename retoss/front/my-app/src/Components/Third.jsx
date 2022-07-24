@@ -8,7 +8,7 @@ import   anne from '../images/image-anne.jpg'
 const Third = () => {
   return (
     <div className="ThirdContainer">
-      <div className="Commentary">
+      <div className="Commentary Commentarypart1 ">
         <div  className="part1">  
         <img className="image" src={colton} alt="image"/> 
         <div>    
@@ -29,7 +29,7 @@ const Third = () => {
 
 
 
-      <div className="Commentary">
+      <div className="Commentary  Commentarypart2">
         <div  className="part1">  
         <img className="image" src={irene} alt="image"/> 
         <div>    
@@ -51,7 +51,7 @@ const Third = () => {
 
 
 
-      <div className="Commentary">
+      <div className="Commentary  ">
         <div  className="part1">  
         <img className="image" src={anne} alt="image"/> 
         <div>    

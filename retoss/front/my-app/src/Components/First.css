@@ -35,7 +35,9 @@
         width: 100%;
         height: auto;
         display: flex;
-       
+        background-image: url("../images/bg-pattern-top-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
 
 }
 .FirstContainer >div{
