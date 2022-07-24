@@ -1,0 +1,36 @@
+.secondContainer{
+    width: 100%;
+    
+}
+.rewiews {
+    padding-top: 10px;
+    padding-bottom: 2px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+    /* color: hsl(333, 80%, 67%); 
+    color:hsl(303, 10%, 53%);
+    color:hsl(300, 24%, 96%); 
+     color: hsl(0, 0%, 100%);  */
+    ;
+}
+
+.rewiews h3{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+.ReviewIconChildren{
+    font-size: 22px;
+    padding-left: 3px;
+    padding-right: 3px;
+
+   
+}
+.starDiv{
+    text-align: center;
+}
