@@ -1,107 +1,83 @@
-.ThirdContainer{
-    width: 100%;
-    margin-top: 50px;
-    background-image: url("../images/bg-pattern-bottom-mobile.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-
+.ThirdContainer {
+  width: 100%;
+  margin-top: 50px;
+  background-image: url("../images/bg-pattern-bottom-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-
-.Commentary{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color:  hsl(300, 43%, 22%);
-    border-radius: 10px;
-    padding-bottom: 5px;
-    margin-bottom: 20px;
-   
+.Commentary {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
 }
 
-.Commentary h3{
-    color:hsl(300, 24%, 96%);
-    font-weight: 500;
-    position: relative;
-    top: 8px;
+.Commentary h3 {
+  color: hsl(300, 24%, 96%);
+  font-weight: 500;
+  position: relative;
+  top: 8px;
 }
 
-.Commentary h4{
-      color: hsl(333, 80%, 67%); 
-      font-weight: 400;
-      position: relative;
-      bottom: 8px;
-
-
+.Commentary h4 {
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+  position: relative;
+  bottom: 8px;
 }
 .image {
-    width: 45px;
-    border-radius: 20px;
-    margin-left: 15px;
-    height: 45px;
+  width: 45px;
+  border-radius: 20px;
+  margin-left: 15px;
+  height: 45px;
 }
-.part1{
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    align-items: center;
-    
-   
+.part1 {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  align-items: center;
 }
 
-.part1 div{
-  
-    margin-left: 20px;
-}    
-    
-
-
+.part1 div {
+  margin-left: 20px;
+}
 
 .Commentary p {
-     /* color: hsl(333, 80%, 67%); 
-    color:hsl(303, 10%, 53%);
-    color:hsl(300, 24%, 96%); 
-     color: hsl(0, 0%, 100%);  */
-     color:hsl(300, 24%, 96%);
-     text-align: left;
-     width: 80%;
-     font-size: 16px;
-     margin-right: auto;
+  color: hsl(300, 24%, 96%);
+  text-align: left;
+  width: 80%;
+  font-size: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media only screen and (min-width: 376px) {
+  .ThirdContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
     margin-left: auto;
-     
-}
+    margin-right: auto;
+  }
 
-@media only screen and (min-width: 376px){ 
-
-    .ThirdContainer{
-        width: 90%;
-        display: flex;
-        flex-direction: row;
-        margin-left: auto;
-        margin-right: auto;
-     
-
-    }
-
-
-.Commentary{
+  .Commentary {
     width: 27%;
+  }
 
-}
-
-.Commentarypart1{
-position: relative;
-bottom:50px
-}
-
-.Commentarypart2{
+  .Commentarypart1 {
     position: relative;
-    bottom:25px
-    }
+    bottom: 50px;
+  }
 
-
-
+  .Commentarypart2 {
+    position: relative;
+    bottom: 25px;
+  }
 }
