@@ -34,3 +34,39 @@
 .starDiv{
     text-align: center;
 }
+
+
+
+@media only screen and (min-width: 376px){ 
+
+.secondContainer{
+    width: 100%;
+    height: auto;
+    padding-top: 7%;
+}
+
+
+
+.rewiews{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+    width: 75%;
+    margin-bottom: 10px;
+    height: 45px;
+    
+}
+
+.rewiewsPart1{
+    position: relative;
+    left: -100px;
+}
+.rewiewsPart2{
+    position: relative;
+    left: -50px;
+}
+
+
+
+}

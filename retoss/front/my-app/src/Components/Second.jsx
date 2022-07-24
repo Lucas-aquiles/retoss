@@ -5,17 +5,17 @@ import Star from "./StarSecond";
 const Second = () => {
   return (
     <div className="secondContainer">
-      <div className="rewiews">
+      <div className="rewiews rewiewsPart1">
         <Star />
         <h3> Rated 5 Stars in Reviews </h3>
       </div>
 
-      <div className="rewiews">
+      <div className="rewiews  rewiewsPart2">
         <Star />
         <h3> Rated 5 Stars in Report Guru </h3>
       </div>
 
-      <div className="rewiews">
+      <div className="rewiews ">
         <Star />
         <h3> Rated 5 Stars in BestTech </h3>
       </div>

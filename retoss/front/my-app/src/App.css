@@ -16,10 +16,14 @@
 
 .App{
     max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    border:solid
 } 
 .desktop{
     display: flex;
     flex-direction: row;
     width:100%;
+    border:solid
 }
 }
