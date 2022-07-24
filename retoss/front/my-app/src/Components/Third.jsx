@@ -9,7 +9,7 @@ const Third = () => {
     <div className="ThirdContainer">
       <div className="Commentary Commentarypart1 ">
         <div className="part1">
-          <img className="image" src={colton} alt="image" />
+          <img className="image" src={colton} alt=" Colon" />
           <div>
             <h3> Colton Smith </h3>
             <h4> Verified Buyer</h4>
@@ -27,7 +27,7 @@ const Third = () => {
 
       <div className="Commentary  Commentarypart2">
         <div className="part1">
-          <img className="image" src={irene} alt="image" />
+          <img className="image" src={irene} alt="Irene" />
           <div>
             <h3> Irene Roberts </h3>
             <h4> Verified Buyer</h4>
@@ -45,7 +45,7 @@ const Third = () => {
 
       <div className="Commentary  ">
         <div className="part1">
-          <img className="image" src={anne} alt="image" />
+          <img className="image" src={anne} alt="Anne" />
           <div>
             <h3> Anne Wallace</h3>
             <h4> Verified Buyer</h4>
